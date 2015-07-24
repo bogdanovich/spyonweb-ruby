@@ -1,3 +1,5 @@
+Currently in development
+
 ## Spyonweb.com API ruby bindings
 
 ## Installation

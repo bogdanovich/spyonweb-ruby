@@ -1,4 +1,4 @@
-# Spyonweb.com Ruby bindings
+## Spyonweb.com API ruby bindings
 
 ## Installation
 

@@ -1,4 +1,6 @@
-## Spyonweb.com API ruby bindings
+## Spyonweb.com ruby bindings
+
+[![Gem Version](https://badge.fury.io/rb/spyonweb.svg)](http://badge.fury.io/rb/spyonweb) [![Code Climate](https://codeclimate.com/github/bogdanovich/spyonweb-ruby/badges/gpa.svg)](https://codeclimate.com/github/bogdanovich/spyonweb-ruby)
 
 ## Installation
 
@@ -19,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-# initialize
+require 'spyonweb'
 
 Spyonweb.api_token = 'MY_TOKEN'
 

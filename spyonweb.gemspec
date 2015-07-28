@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Anton Bogdanovich"]
   spec.email         = ["27bogdanovich@gmail.com"]
   spec.summary       = %q{Spyonweb.com Ruby bindings}
-  spec.description   = %q{Spyonweb.com API ruby bindings}
+  spec.description   = %q{Spyonweb.com Ruby bindings}
   spec.homepage      = "https://github.com/bogdanovich/spyonweb-ruby"
   spec.license       = "MIT"
 

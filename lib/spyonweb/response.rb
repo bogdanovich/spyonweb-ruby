@@ -1,16 +1,17 @@
 module Spyonweb
 
-  class Response < Struct.new(:status, :result, :response)
+  class Response < Struct.new(:status, :result, :message, :response)
     def self.parse(response)
       begin
         hash = JSON.parse(response.body)
         status = hash['status']
         result = hash['result']
+        message = hash['message']
       rescue JSON::ParserError => e
         status = "error"
-        result = e.message
+        message = e.inspect
       end
-      Response.new(status, result, response)
+      Response.new(status, result, message, response)
     end
   end
 

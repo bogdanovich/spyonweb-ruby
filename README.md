@@ -1,5 +1,3 @@
-Currently in development
-
 ## Spyonweb.com API ruby bindings
 
 ## Installation
@@ -22,9 +20,11 @@ Or install it yourself as:
 
 ```ruby
 # initialize
+
 Spyonweb.api_token = 'MY_TOKEN'
 
-# queries
+# Available methods
+
 Spyonweb.summary('fullmooncalendar.net')
 
 Spyonweb.domain('fullmooncalendar.net')
